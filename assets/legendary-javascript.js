@@ -48,12 +48,12 @@ tSignin.addEventListener('click', async () =>{
 
 cdisplay.addEventListener('click', async () => {
      await T.auth();
-     await Tr.parseCards();
+     await T.parseCards();
 });
 
 bdisplay.addEventListener('click', async () => {
      await T.auth();
-     await Tr.parseBoards();
+     await T.parseBoards();
 });
 gSignin.addEventListener('click', async function (){
      await window.location.replace("https://github.com/login/oauth/authorize?client_id=Iv1.c28cca759ac962c2&state=aiio2u8922&login=")
