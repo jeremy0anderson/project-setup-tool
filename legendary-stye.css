@@ -1,0 +1,145 @@
+body{
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.rendered-form{
+    text-align: center;
+    display: block;
+}
+
+label{
+    display: none;
+}
+input{
+    padding: 5px;
+    width: 200px;
+}
+textarea{
+    padding: 10px;
+    width: 200px;
+}
+form{
+    justify-content: space-between;
+    text-align: center;
+}
+.form-group{
+    justify-content: space-around;
+    padding: 15px;
+    display: flex;
+}
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-control::placeholder {
+    text-align: center;
+}
+.form-fieldset-container{
+    display: block;
+    border-style: none;
+    justify-content: space-between;
+}
+
+#edit-fields-btn-containers{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+}
+.edit-fields {
+    display: block;
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+.edit-card-input{
+    display: flex;
+}
+.field-button{
+    display: inline-flex;
+}
+
+body,
+html {
+  background: #f2f2f2;
+}
+
+pre,
+.message {
+  max-width: 960px;
+}
+
+li {margin: 10px}
+
+.box {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box span.icon {
+  float: right;
+  font-size: 1.7em;
+  padding: 2rem 2rem 0 0;
+}
+
+.is-large.fab {
+  font-size: 7em;
+}
+
+.is-large.fas {
+  font-size: 5em;
+  margin-left: 0.2em;
+}
+
+.media-content {overflow: hidden;}
+
+.menu-list li a:hover {
+  background: #d9d9d9;
+}
+
+.token.number {
+  display: inline;
+  padding: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+  border-radius: inherit;
+  font-weight: inherit;
+  white-space: inherit;
+  background: inherit;
+  margin: inherit;
+}
+
+footer {
+    background-color: white;
+    padding: 2rem 1rem 4rem !important;
+    margin-top: auto;
+    }
+
+footer h1 {
+    position: relative;
+}
+
+footer .section {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+footer #title {
+    padding-bottom: 20px;
+}
+
+.trello-board{
+    background-color: lightgray;
+    margin: 5px;
+    float: left;
+}
+.trello-card{
+    float: right;
+    display: inline-block;
+}
+.trello-components-container{
+    display: flex;
+}
