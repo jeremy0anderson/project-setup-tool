@@ -56,5 +56,5 @@ bdisplay.addEventListener('click', async () => {
      await T.parseBoards();
 });
 gSignin.addEventListener('click', async function (){
-     await window.location.replace("https://github.com/login/oauth/authorize?client_id=Iv1.c28cca759ac962c2&state=aiio2u8922&login=")
+     await window.location.replace("https://github.com/login/oauth/authorize?client_id=Iv1.5988df7880a074b5E&state=32ofc89s")
 })
